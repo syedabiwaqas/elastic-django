@@ -6,7 +6,7 @@ for running the project
 2.first make maigrations and migrate
 3.runserver and go to django administrator and create some blogpost
 4.check if elasticsearch created index or not
-5.if all works fien you can hit search url and check if its working or not
+5.if all works fine you can hit search url and check if its working or not
 
 alternatively you can check on shell also 
 
