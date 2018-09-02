@@ -1,0 +1,17 @@
+For this project i am using elasticsearch-5.6.11 and if you are using kibana then kibana version is 5.6.11
+
+
+for running the project 
+1.install requirement.txt
+2.first make maigrations and migrate
+3.runserver and go to django administrator and create some blogpost
+4.check if elasticsearch created index or not
+5.if all works fien you can hit search url and check if its working or not
+
+alternatively you can check on shell also 
+
+python manage.py shell
+
+from elasticsearchapp.search import * 
+
+print(search(author="<author name>"))
